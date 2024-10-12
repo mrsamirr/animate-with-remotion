@@ -6,7 +6,7 @@ export const Background: React.FC = () => {
     return (
     <AbsoluteFill
      style={{
-        background: "linear-gradient(to bottom, #000021, #010024)"
+        background: "linear-gradient(to right, #0f172a, #374151)"
      }}
      />
     );

@@ -5,6 +5,7 @@ import { YellowHearts } from "./YellowHearts";
 import { RedHearts } from "./RedHearts";
 import { Stars } from "./Stars";
 import { Slowed } from "./SlowedTrail";
+import { Animoji } from "./Animoji";
 
 export const MyComposition = () => {
 
@@ -17,6 +18,7 @@ export const MyComposition = () => {
         <YellowHearts />
         <Stars />
       </Slowed>
+      <Animoji />
     </AbsoluteFill >
   );
 };
