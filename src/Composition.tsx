@@ -1,13 +1,22 @@
 import { AbsoluteFill } from "remotion";
 import { Background } from "./Background";
-import { Dot } from "./Dot";
+import { Dots } from "./Dots";
+import { YellowHearts } from "./YellowHearts";
+import { RedHearts } from "./RedHearts";
+import { Stars } from "./Stars";
+import { Slowed } from "./SlowedTrail";
 
 export const MyComposition = () => {
 
   return (
     <AbsoluteFill>
       <Background />
-      <Dot />
-    </AbsoluteFill>
+      <Slowed>
+        <Dots />
+        <RedHearts />
+        <YellowHearts />
+        <Stars />
+      </Slowed>
+    </AbsoluteFill >
   );
 };
